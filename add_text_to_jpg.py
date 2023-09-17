@@ -19,8 +19,6 @@ def add_text_to_image(input_image_path, output_image_path, text, position=(10, 1
         # Save the edited image
         image.save(output_image_path)
 
-        print("Text added to image successfully.")
-
     except Exception as e:
         print("An error occurred:", str(e))
 
