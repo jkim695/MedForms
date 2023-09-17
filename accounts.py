@@ -1,2 +1,0 @@
-patients = {}
-accounts = {}

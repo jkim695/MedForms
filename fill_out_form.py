@@ -6,7 +6,7 @@ import os
 
 def add_patient_info_to_jpg(information, input_image_path, output_image_path):
     medicaid_number, full_name, DOB, sex, telephone, address = information
-    font_size = 30
+    font_size = 100
     text_color = (255, 0, 0)
     add_text_to_image(input_image_path, output_image_path, medicaid_number, (249, 305), font_size, text_color)
     add_text_to_image(output_image_path, output_image_path, full_name, (218, 334), font_size, text_color)
@@ -14,6 +14,16 @@ def add_patient_info_to_jpg(information, input_image_path, output_image_path):
     add_text_to_image(output_image_path, output_image_path, sex, (289, 360), font_size, text_color)
     add_text_to_image(output_image_path, output_image_path, telephone, (486, 304), font_size, text_color)
     add_text_to_image(output_image_path, output_image_path, address, (428, 359), font_size, text_color)
+    
+def add_diagnosis_code1(diagnosis, input_image_path, output_image_path):
+    font_size = 100
+    text_color = (255, 0, 0)
+    add_text_to_image(input_image_path, output_image_path, diagnosis, (441, 612), font_size, text_color)
+    
+def add_diagnosis_code2(diagnosis, input_image_path, output_image_path):
+    font_size = 100
+    text_color = (255, 0, 0)
+    add_text_to_image(input_image_path, output_image_path, diagnosis, (595, 610), font_size, text_color)
     
 def doctor_log_in(accounts, username, password):
     if login(accounts, username, password) == True:
