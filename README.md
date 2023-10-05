@@ -31,7 +31,7 @@ Benefits:
 
 The Automated Pre-Authorization Form Program represents a significant advancement in healthcare administrative automation, demonstrating the potential for AI-driven solutions to enhance efficiency and accuracy in medical settings.
 
-Developed during Hophacks 2023
+Developed during Hophacks 2023 (https://www.hophacks.com/)
 
 
 
